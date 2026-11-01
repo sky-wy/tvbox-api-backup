@@ -15,7 +15,8 @@ on:
       - 'tvbox/**'
       - 'python/**'
       - '.github/workflows/tvbox_scan.yml'
-
+permissions:
+  contents: write
 jobs:
   scan:
     runs-on: ubuntu-latest
